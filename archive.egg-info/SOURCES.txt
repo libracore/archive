@@ -14,6 +14,13 @@ archive.egg-info/not-zip-safe
 archive.egg-info/requires.txt
 archive.egg-info/top_level.txt
 archive/archive/__init__.py
+archive/archive/doctype/__init__.py
+archive/archive/doctype/city/__init__.py
+archive/archive/doctype/city/city.js
+archive/archive/doctype/city/city.json
+archive/archive/doctype/city/city.py
+archive/archive/doctype/city/test_city.js
+archive/archive/doctype/city/test_city.py
 archive/config/__init__.py
 archive/config/desktop.py
 archive/config/docs.py
