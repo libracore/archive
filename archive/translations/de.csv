@@ -1,0 +1,6 @@
+DocType: City,City,Ortschaft
+DocType: Area,Area,Sanierungsgebiet
+DocType: Binder,Binder,Ordner
+DocType: Shelf,Shelf,Regal
+DocType: City,Archive,Archiv
+DocType: City,Related information,Verknüpfte Informationen
