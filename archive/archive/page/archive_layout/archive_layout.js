@@ -5,11 +5,11 @@ frappe.pages['archive_layout'].on_page_load = function(wrapper) {
 		single_column: true
 	});
 
-	frappe.visual.make(page);
+	frappe.archive_layout.make(page);
 	// frappe.visual.run();
 }
 
-frappe.visual = {
+frappe.archive_layout = {
 	start: 0,
 	make: function(page) {
 		var me = frappe.archive_layout;

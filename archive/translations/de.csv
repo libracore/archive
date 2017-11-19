@@ -4,3 +4,7 @@ DocType: Binder,Binder,Ordner
 DocType: Shelf,Shelf,Regal
 DocType: City,Archive,Archiv
 DocType: City,Related information,Verknüpfte Informationen
+DocType: City,Configuration,Konfiguration
+DocType: Shelf,Archive layout,Archivplan
+DocType: City,Records,Datensätze
+DocType: Shelf,Capacity,Kapazität
