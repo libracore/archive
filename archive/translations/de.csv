@@ -8,3 +8,7 @@ DocType: City,Configuration,Konfiguration
 DocType: Shelf,Archive layout,Archivplan
 DocType: City,Records,Datensätze
 DocType: Shelf,Capacity,Kapazität
+DocType: Binder,Show location,Platz anzeigen
+DocType: Binder,Geography,Geographie
+DocType: Binder,Storage,Lagerplatz
+

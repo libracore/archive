@@ -15,7 +15,17 @@ frappe.archive_layout = {
 		var me = frappe.archive_layout;
 		me.page = page;
 		me.body = $('<div></div>').appendTo(me.page.main);
-		var data = "Archive";
+		/* pass arguments as 
+		   http://hostname/desk#archive_layout/(binder)/(shelf)/  */
+		var arguments = window.location.hash.split('/');
+		if (arguments.length > 2)
+		{
+		   var data = {binder: arguments[1], shelf: arguments[2]};
+		}
+		else
+		{
+		   var data = {binder: 0, shelf: 0};
+		}
 		$(frappe.render_template('archive_layout', data)).appendTo(me.page.main);
 
 		me.more = $('<div class="for-more"><button class="btn btn-sm btn-default btn-more">'
