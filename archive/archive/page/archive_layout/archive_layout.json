@@ -7,9 +7,9 @@
  "modified": "2017-11-19 22:25:01.983200",
  "modified_by": "Administrator",
  "module": "archive",
- "name": "archive-layout",
+ "name": "archive_layout",
  "owner": "Administrator",
- "page_name": "archive-layout",
+ "page_name": "archive_layout",
  "roles": [
   {
    "role": "User"

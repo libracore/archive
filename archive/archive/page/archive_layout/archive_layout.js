@@ -1,4 +1,4 @@
-frappe.pages['archive-layout'].on_page_load = function(wrapper) {
+frappe.pages['archive_layout'].on_page_load = function(wrapper) {
 	var page = frappe.ui.make_app_page({
 		parent: wrapper,
 		title: __('Archive layout'),
@@ -12,11 +12,11 @@ frappe.pages['archive-layout'].on_page_load = function(wrapper) {
 frappe.visual = {
 	start: 0,
 	make: function(page) {
-		var me = frappe.archive-layout;
+		var me = frappe.archive_layout;
 		me.page = page;
 		me.body = $('<div></div>').appendTo(me.page.main);
 		var data = "Archive";
-		$(frappe.render_template('archive-layout', data)).appendTo(me.page.main);
+		$(frappe.render_template('archive_layout', data)).appendTo(me.page.main);
 
 		me.more = $('<div class="for-more"><button class="btn btn-sm btn-default btn-more">'
 			+ __("More") + '</button></div>').appendTo(me.page.main)
@@ -26,9 +26,9 @@ frappe.visual = {
 			});
 	},
 	run: function() {
-		var me = frappe.archive-layout;
+		var me = frappe.archive_layout;
 		frappe.call({
-			method: 'archive.archive-layout.get_data',
+			method: 'archive.archive_layout.get_data',
 			args: {
 				start: me.start
 			},

@@ -30,7 +30,7 @@ def get_data():
             "items": [
                    {
                        "type": "page",
-                       "name": "archive-layout",
+                       "name": "archive_layout",
                        "label": _("Archive layout"),
                        "description": _("Archive layout")
                    }
